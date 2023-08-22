@@ -1,0 +1,7 @@
+*
+!.gitignore
+!Makefile
+!rtl.list
+!signal.rc
+!cov.cfg
+!runlist
