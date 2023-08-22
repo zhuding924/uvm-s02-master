@@ -15,6 +15,7 @@ class my_agent extends uvm_agent ;
     function new(string name, uvm_component parent);
        super.new(name, parent);
     endfunction 
+    
     extern virtual function void build_phase(uvm_phase phase);
     extern virtual function void connect_phase(uvm_phase phase);
  
